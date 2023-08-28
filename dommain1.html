@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><br><br>
+
+    <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="number" id="inp1" placeholder="Enter num 1" > &nbsp;&nbsp;&nbsp;&nbsp;
+        <nbsp></nbsp>
+        <input type="number" id="inp2" placeholder="Enter num2 2" >
+        <br>
+        <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" onclick="b1()">Add</button>
+    &nbsp;<button onclick="b2()">Sub</button>
+     &nbsp;<button onclick="b3()">Multiply</button> &nbsp;<button onclick="b4()">Divide</button>
+    </div>
+    
+</body>
+<script>
+    let input1=document.getElementById("inp1");
+    let input2=document.getElementById("inp2");
+    function b1(){
+ 
+ let results=+input1.value +  +input2.value
+ alert(results)
+
+    }
+    function b2(){
+ 
+ let results=+input1.value -  +input2.value
+ alert(results)
+
+    }
+    function b3(){
+ 
+ let results=+input1.value *  +input2.value
+ alert(results)
+
+    }
+    function b4(){
+ 
+ let results=+input1.value / +input2.value
+ alert(results)
+
+    }
+
+</script>
+</html>
